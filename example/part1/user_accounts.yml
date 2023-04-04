@@ -1,4 +1,4 @@
-- hosts: server
+- hosts: all
   remote_user: root
   tasks:
     - name: Create admini user
